@@ -38,7 +38,6 @@ export class YouTube extends Component {
           controls: controls ? 1 : 0,
           start: parseStartTime(url),
           end: parseEndTime(url),
-          origin: window.location.origin,
           playsinline: playsinline,
           ...playerVars
         },
